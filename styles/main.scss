@@ -1,0 +1,55 @@
+h1, p {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  h3 {
+    font-weight: normal;
+    margin-left: 20px;
+  }
+}
+
+.banner {
+  height: 200px;
+  background: url('images/banner.jpg');
+}
+
+main {
+  background: #EEEEEE;
+  color: #595959;
+  text-align: center;
+  section {
+    padding: 20px 0;
+  }
+}
+
+.answer-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  h1 {
+    font-weight: normal;
+  }
+  .line {
+    height: 2px;
+    width: 44.5vw;
+    background: #E8E8E8;
+  }
+}
+
+.answer {
+  p {
+    display: inline-block;
+    width: 50vw;
+    // text-align: left;
+  }
+}
+
+footer {
+  background: #4B484F;
+  padding: 20px 0;
+  text-align: center;
+  color: #fff;
+}
